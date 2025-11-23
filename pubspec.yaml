@@ -1,0 +1,50 @@
+name: it31MYP
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.3.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Локализация
+  flutter_localizations:
+    sdk: flutter
+
+  # Иконки (можно оставить)
+  cupertino_icons: ^1.0.8
+
+  # Сохранение пользователя
+  shared_preferences: ^2.2.2
+
+  # Управление темой и языком
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.jpg"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/icon.jpg"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/icon.jpg"
+  macos:
+    generate: true
+    image_path: "assets/icon.jpg"
