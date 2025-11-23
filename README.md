@@ -22,9 +22,9 @@ Welcome to **Flutter Application 1**! This is a cross-platform mobile app built 
 	```sh
 	flutter pub get
 	```
- Unpack the .dart_tool directory (if provided as an archive):
-Place the unpacked .dart_tool folder in the project root.
-This directory contains build configuration and tools required for stable project launch.
+    Unpack the .dart_tool directory (if provided as an archive):
+    Place the unpacked .dart_tool folder in the project root.
+    This directory contains build configuration and tools required for stable project launch.
 
 3. **Run the app:**
 	```sh
