@@ -15,12 +15,9 @@ Welcome to **Flutter Application 1**! This is a cross-platform mobile app built 
 
 ##  Getting Started
 
-1. **Clone the repository:**
-	```sh
-	git clone https://github.com/your-username/flutter_application_1.git
-	cd flutter_application_1
+
 	```
-2. **Install dependencies:**
+ **Install dependencies:**
 	```sh
 	flutter pub get
 	```
@@ -28,7 +25,7 @@ Welcome to **Flutter Application 1**! This is a cross-platform mobile app built 
     Place the unpacked .dart_tool folder in the project root.
     This directory contains build configuration and tools required for stable project launch.
 
-3. **Run the app:**
+ **Run the app:**
 	```sh
 	flutter run
 	```
